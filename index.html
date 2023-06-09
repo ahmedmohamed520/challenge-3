@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+        <link rel="stylesheet" href="general.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Frontend Mentor | Age calculator app</title>
+    </head>
+    <body>
+        <div class="container">
+            <form class="form">
+                <div class="inputs-container">
+                    <div class="form-control">
+                        <label for="day">Day</label>
+                        <input type="number" placeholder="DD" id="day" name="day" />
+                        <span></span>
+                    </div>
+                    <div class="form-control">
+                        <label for="month">month</label>
+                        <input type="number" placeholder="MM" id="month" name="month" />
+                        <span></span>
+                    </div>
+                    <div class="form-control">
+                        <label for="year">year</label>
+                        <input type="number" placeholder="YYYY" id="year" name="year" />
+                        <span></span>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <div class="line"></div>
+                    <button class="btn">
+                        <img src="./assets/images/icon-arrow.svg" alt="Submit" class="icon" />
+                    </button>
+                </div>
+            </form>
+
+            <div class="content-container">
+                <div class="field"><span id="years">--</span> years</div>
+                <div class="field"><span id="months">--</span> months</div>
+                <div class="field"><span id="days">--</span> days</div>
+            </div>
+        </div>
+    </body>
+
+    <script src="script.js"></script>
+</html>
